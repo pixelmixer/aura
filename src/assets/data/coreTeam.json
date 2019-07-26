@@ -1,56 +1,11 @@
 [
     {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
+        "name":"Dustin Sparks (Pixelmixer)",
+        "designation":"Lead Software Engineer",
+        "twitter":"https://twitter.com/pixelmixer",
+        "linkedin":"https://www.linkedin.com/in/pixelmixer",
+        "github":"https://github.com/pixelmixer",
+        "profileImage":"dustin-sparks.png",
+        "website":"https://djsparks.com"
     }
 ]

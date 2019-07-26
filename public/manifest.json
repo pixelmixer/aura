@@ -1,6 +1,6 @@
 {
-  "name": "GDG Web App",
-  "short_name": "GDG Web App",
+  "name": "GDG Savannah Web App",
+  "short_name": "GDG Savannah Web App",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",

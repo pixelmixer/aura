@@ -1,7 +1,7 @@
 {
     "AboutSession":[
         {
-            "LinkName":"GDG Jalandhar",
+            "LinkName":"GDG Savannah",
             "Link":"/"
         },
         {
@@ -9,26 +9,22 @@
             "Link":"https://developers.google.com/programs/community/gdg/"
         },
         {
-            "LinkName":"WomenTechamkers",
+            "LinkName":"WomenTechmakers",
             "Link":"https://www.womentechmakers.com/"
         },
         {
             "LinkName":"Become a Member",
-            "Link":"https://www.meetup.com/GDG-Jalandhar/"
+            "Link":"https://www.meetup.com/GDG-Savannah/"
         }
     ],
     "ChapterResourcesSession":[
         {
             "LinkName" : "Become a Sponsor",
-            "Link" : "mailto:gdgjalandhar@gmail.com"
+            "Link" : "mailto:gdgsavannah@gmail.com"
         },
         {
             "LinkName" : "Call for Speaker",
-            "Link" : "mailto:gdgjalandhar@gmail.com"
-        },
-        {
-            "LinkName" : "Media Kit",
-            "Link" : "https://drive.google.com/drive/folders/16rHDaHbuS_YApMWgJHUxygpd-A5gCkLK"
+            "Link" : "mailto:gdgsavannah@gmail.com"
         }
     ],
     "DevConsole":[

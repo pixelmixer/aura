@@ -25,21 +25,21 @@
         <v-flex xs12 md10 lg10>
            <v-layout wrap align-start justify-start row class="my-2">
             <v-flex xs12 md3 sm4 lg3 class="py-2">
-              <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>About</b></p>  
+              <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>About</b></p>
               <div v-for="(item,i) in FooterData.AboutSession" :key="i" class="mt-1">
                 <a :href="item.Link" class="google-font" target="_blank" style="color: #3E4551;text-decoration: none;font-size:110%">{{item.LinkName}}</a><br>
               </div>
             </v-flex>
 
             <v-flex xs12 md3 sm4 lg3 class="py-2">
-              <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Resources</b></p>  
+              <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Resources</b></p>
               <div v-for="(item,i) in FooterData.ChapterResourcesSession" :key="i" class="mt-1">
-                <a :href="item.Link" class="google-font" target="_blank" style="color: #3E4551;text-decoration: none;font-size:110%">{{item.LinkName}}</a><br>
+                <a :href="item.Link" class="google-font" target="_blank" style="color: #3E4551;text-decoration: none;font-size:110%"><i aria-hidden="true" class="fas fa-envelope theme--light"></i> {{item.LinkName}}</a><br>
               </div>
             </v-flex>
 
             <v-flex xs12 md3 sm4 lg3 class="py-2">
-              <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Developer Console</b></p>  
+              <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Developer Console</b></p>
               <div v-for="(item,i) in FooterData.DevConsole" :key="i" class="mt-1">
                 <a :href="item.Link" target="_blank" class="google-font" style="color: #3E4551;text-decoration: none;font-size:110%">{{item.LinkName}}</a><br>
               </div>
@@ -56,11 +56,11 @@
               <v-toolbar-title class="google-font pl-0 ml-0 mr-3" style="font-size:200%">{{ChapterDetails.ChapterName}}</v-toolbar-title>
 
               <v-btn
-                  v-for="(item,i) in FooterData.FooterEndSession" 
+                  v-for="(item,i) in FooterData.FooterEndSession"
                   :key="i"
-                  :href="item.Link" target="_blank" 
+                  :href="item.Link" target="_blank"
                   class="ml-0 google-font hidden-sm-and-down"
-                  style="text-transform: capitalize;font-size:110%" 
+                  style="text-transform: capitalize;font-size:110%"
                   flat
                 >
                   {{ item.LinkName }}

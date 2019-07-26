@@ -1,47 +1,11 @@
 [
     {
-        "name":"Name",
-        "designation":"Development",
-        "twitter":"https://twitter.com/",
-        "linkedin":"https://www.linkedin.com/",
-        "github":"https://github.com/",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Name",
-        "designation":"Management",
-        "twitter":"",
-        "linkedin":"https://www.linkedin.com/",
-        "github":"",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Name",
-        "designation":"Development",
-        "twitter":"https://twitter.com/",
-        "linkedin":"https://www.linkedin.com/",
-        "github":"https://www.github.com/",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Name",
-        "designation":"Development",
-        "twitter":"https://twitter.com/",
-        "linkedin":"https://linkedin.com/",
-        "github":"https://github.com/",
-        "profileImage":"",
-        "website":"https://github.com"
-    },
-    {
-        "name":"Name",
-        "designation":"Development",
-        "twitter":"https://twitter.com/",
-        "linkedin":"",
-        "github":"https://github.com/",
-        "profileImage":"",
-        "website":""
+        "name":"Dustin Sparks (Pixelmixer)",
+        "designation":"Lead Software Engineer",
+        "twitter":"https://twitter.com/pixelmixer",
+        "linkedin":"https://www.linkedin.com/in/pixelmixer",
+        "github":"https://github.com/pixelmixer",
+        "profileImage":"dustin-sparks.png",
+        "website":"https://djsparks.com"
     }
 ]
