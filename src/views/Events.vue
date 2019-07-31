@@ -13,6 +13,15 @@
     <v-container fluid class="grey lighten-5">
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10 class="">
+          <p class="google-font mb-0" style="font-size:170%;color:#0277bd">Event Spotlight</p>
+          <featureEvent />
+        </v-flex>
+      </v-layout>
+    </v-container>
+
+    <v-container fluid class="grey lighten-5">
+      <v-layout wrap align-center justify-center row fill-height>
+        <v-flex xs12 md10 class="">
           <upcommingEvents/>
         </v-flex>
       </v-layout>
@@ -27,17 +36,19 @@
     </v-container>
 
   </v-content>
-  
+
 </template>
 
 <script>
 import ChapterDetails from '@/assets/data/chapterDetails.json'
 import upcommingEvents from '@/components/events/upcomingEvents'
 import pastEvents from '@/components/events/pastEvents'
+import featureEvent from '@/components/home/featureEvent'
   export default {
     components: {
       upcommingEvents,
-      pastEvents
+      pastEvents,
+      featureEvent
     },
     data() {
       return {
