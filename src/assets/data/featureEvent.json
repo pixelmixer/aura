@@ -1,2 +1,20 @@
 {
+  "FeatureEventName":"Inaugural GDG Savannah Meetup",
+  "EventImage":"gdg-savanah-meetup-august-14-19.png",
+  "EventDate":{
+      "Date":"14",
+      "Month":"8",
+      "Year":"2019"
+  },
+  "EventTime":{
+      "StartTime":"06:30 PM",
+      "EndTime":"08:30 PM"
+  },
+  "EventVenue":"Bull Street Labs, 2222 Bull St. Savannah, GA",
+  "EventVenueMapLink":"https://www.google.com/maps/dir//2222+Bull+Street,+Savannah,+GA/@32.0556938,-81.1027798,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x88fb9e3cde884941:0x82adba23dd1f02c6!2m2!1d-81.1005911!2d32.0556893",
+  "EventWebsite":"https://www.meetup.com/GDG-Savannah/events/263618595",
+  "EventDescription":"This is the inaugural GDG Savannah meetup. We'll use this time to kick off a regular occurrence of GDG Savannah meetup events happening at least once per quarter. During this first meetup, we'll discuss planning and organization, along with some of the national GDG content offerings and we'll perform a formal brainstorming session to share ideas and explore potential future meetup topics.",
+  "MeetupLink":"https://www.meetup.com/GDG-Savannah/events/263618595",
+  "RegistrationLink":"https://www.meetup.com/GDG-Savannah/events/263618595",
+  "FBEventPageURL":"https://www.facebook.com/events/2583157691723545"
 }
