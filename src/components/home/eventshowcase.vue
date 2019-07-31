@@ -21,8 +21,8 @@
                <p class="google-font" style="font-size:120%">
                    At sessions that span from the technical to the visionary, let’s celebrate and discover what the technologies can enable: how product innovation, open source, and ML and AI can propel enterprises forward and solve the big problems that impact all of us.
                </p>
-               <router-link to="/events" flat color="#4C4A78" class="ma-0 google-font" style="border-radius:5px;text-transform: capitalize;text-decoration:none;color:#4C4A78">See More</router-link>             
-            </v-flex> 
+               <router-link to="/events" flat color="#4C4A78" class="ma-0 google-font" style="border-radius:5px;text-transform: capitalize;text-decoration:none;color:#4C4A78">See More</router-link>
+            </v-flex>
         </v-layout>
 
         <v-layout wrap align-start justify-center row fill-height class="hidden-sm-and-down mb-4">
@@ -30,9 +30,9 @@
              <v-flex xs12 v-if="showLoader">
                 <v-layout row wrap>
                     <v-flex xs12 sm6 md3 lg3 v-for="n in 4" :key="`4${n}`">
-                        <v-card 
+                        <v-card
                             flat
-                            class="ma-1 pa-1 my-0 elevation-0" 
+                            class="ma-1 pa-1 my-0 elevation-0"
                             style="border-radius:7px;border:1px #ddd solid">
 
                             <v-card-title class="mb-0">
@@ -43,20 +43,20 @@
                                     <p class="google-font mt-1 mb-0 animate-shimmer" style="color:#424242;width:100px;height:20px;"></p>
                                 </div>
                             </v-card-title>
-                        
+
                             <v-card-actions class="mt-0">
                                 <v-spacer></v-spacer>
                                 <span class="animate-shimmer" style="color:#424242;width:60px;height:25px;"></span>
                             </v-card-actions>
-                            
+
                         </v-card>
                     </v-flex>
                 </v-layout>
              </v-flex>
             <v-flex xs12 sm6 md3 lg3 v-for="(item,i) in eventsData" :key="i">
-                <v-card 
+                <v-card
                     flat
-                    class="ma-1 pa-1 my-0" 
+                    class="ma-1 pa-1 my-0"
                     style="border: 1px solid #e0e0e0;min-height:160px;border-radius:7px;">
 
                     <v-card-title class="mb-0">
@@ -77,12 +77,12 @@
                         </div>
                     </v-card-title>
 
-                   
+
                      <v-card-actions class="mt-0">
                         <v-spacer></v-spacer>
-                        <v-btn flat color="#4C4A78" :href="item.link" target="_blank" class="mb-0 ml-0 mt-0 google-font" style="border-radius:7px;text-transform: capitalize;">See More</v-btn> 
+                        <v-btn flat color="#4C4A78" :href="item.link" target="_blank" class="mb-0 ml-0 mt-0 google-font" style="border-radius:7px;text-transform: capitalize;">See More</v-btn>
                     </v-card-actions>
-                    
+
                 </v-card>
             </v-flex>
 
@@ -114,7 +114,7 @@
                                 <v-list-tile-action>
                                     <v-icon color="grey lighten-3">info</v-icon>
                                 </v-list-tile-action>
-                                
+
                             </v-list-tile>
                         </v-list>
                     </v-flex>
@@ -145,13 +145,13 @@
                                     <v-btn icon ripple :href="item.link" target="_blank" slot="activator">
                                         <v-icon color="grey darken-1">info</v-icon>
                                     </v-btn>
-                                    
+
                                     <span>See More about {{item.name}}</span>
                                 </v-tooltip>
                             </v-list-tile-action>
-                            
+
                         </v-list-tile>
-                        
+
 
                     </v-list>
                 </v-slide-y-reverse-transition>
@@ -166,7 +166,7 @@
 
 <script>
 import ChapterDetails from '@/assets/data/chapterDetails.json'
-import { MeetupAPI } from '@/config/key'
+// import { MeetupAPI } from '@/config/key'
 export default {
     data() {
         return {
@@ -180,22 +180,22 @@ export default {
         }
     },
     created(){
-        fetch('https://cors-anywhere.herokuapp.com/https://api.meetup.com/'+MeetupAPI.urlname+'/events?desc=true&photo-host=public&page=4&status=past&key='+MeetupAPI.apiKey).then(data=>data.json()).then(res=>{
-            if(res.length>0){
-                this.showLoader = false
-                this.showData = true
-                this.eventsData = res
-            }
-            else{
-                this.notFoundEventFlag = true
-                this.showLoader = false 
-            }
-        }).catch(e=>{
-            this.showLoader = false
-            this.errorMsg = 'Issue found with '+e
-            this.errorAlert = true
-            this.notFoundEventFlag = true
-        })
+        // fetch('https://cors-anywhere.herokuapp.com/https://api.meetup.com/'+MeetupAPI.urlname+'/events?desc=true&photo-host=public&page=4&status=past&key='+MeetupAPI.apiKey).then(data=>data.json()).then(res=>{
+        //     if(res.length>0){
+        //         this.showLoader = false
+        //         this.showData = true
+        //         this.eventsData = res
+        //     }
+        //     else{
+        //         this.notFoundEventFlag = true
+        //         this.showLoader = false
+        //     }
+        // }).catch(e=>{
+        //     this.showLoader = false
+        //     this.errorMsg = 'Issue found with '+e
+        //     this.errorAlert = true
+        //     this.notFoundEventFlag = true
+        // })
     },
     methods:{
         getCharString(data){
@@ -228,7 +228,7 @@ export default {
 
         -webkit-animation: AnimationName 5s ease infinite;
         -moz-animation: AnimationName 5s ease infinite;
-        animation: AnimationName 5s ease infinite;   
+        animation: AnimationName 5s ease infinite;
     };
 
     @-webkit-keyframes AnimationName {
@@ -243,10 +243,9 @@ export default {
         100%{background-position:0% 52%}
     }
 
-    @keyframes AnimationName { 
+    @keyframes AnimationName {
         0%{background-position:0% 52%}
         50%{background-position:100% 49%}
         100%{background-position:0% 52%}
     }
 </style>
-
